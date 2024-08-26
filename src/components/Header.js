@@ -46,7 +46,7 @@ else {
   }
 
   return (
-  <div className="absolute z-10 w-screen px-8 py-2 bg-gradient-to-b from-black flex justify-between">
+  <div className="absolute z-10 w-screen px-8 py-2 bg-gradient-to-b from-black flex justify-between max-w-full">
   <div > 
         <img className="w-44 absolute"
         

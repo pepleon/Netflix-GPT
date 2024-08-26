@@ -15,8 +15,7 @@ const Login = () => {
   const dispatch = useDispatch();
 
   const handleButtonClick = () =>{
-   console.log(email.current.value);
-   console.log(password.current.value);
+   
    const message = checkvaliddata(email.current.value, password.current.value);
     seterrorMessage(message);
   if (message) return;
@@ -55,7 +54,7 @@ createUserWithEmailAndPassword(auth, email.current.value, password.current.value
       // Signed in 
       const user = userCredential.user;
      
-      console.log(user);      // ...
+        // ...
     })
     .catch((error) => {
       const errorCode = error.code;
